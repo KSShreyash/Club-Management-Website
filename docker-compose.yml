@@ -2,13 +2,13 @@ version: "3.9"
 
 services:
   backend:
-    build: ./backend
+    build: ./Backend
     ports:
       - "8000:8000"
     container_name: club-management-website-backend
 
   frontend:
-    build: ./frontend
+    build: ./Frontend
     ports:
       - "3000:80"
     container_name: club-management-website-frontend
