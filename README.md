@@ -190,4 +190,5 @@ The Club Management Website can be containerized using Docker to ensure consiste
 
 ### Build the Docker Image
 ```bash
-docker build -t club-management-website .
+docker-compose build
+docker-compose up
