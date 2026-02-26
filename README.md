@@ -192,3 +192,11 @@ The Club Management Website can be containerized using Docker to ensure consiste
 ```bash
 docker-compose build
 docker-compose up
+
+```
+---
+
+## Software Design
+![Club Management Website Updated Architecture](https://github.com/user-attachments/assets/e2c4f3da-dcd4-4aba-b58f-707d5699e75f)
+
+The system follows a layered client-server architecture with modular backend services ensuring high cohesion and low coupling. Docker is used for deployment while preserving logical separation of components.
