@@ -67,15 +67,18 @@ To create a centralized, transparent, and scalable platform that seamlessly inte
 
 ## Technology Stack
 
-- **Frontend:** React.js  
-- **Routing:** React Router  
-- **State Management:** Context API  
-- **Styling:** CSS / Tailwind CSS  
-- **Backend (future scope):** Node.js / Firebase  
-- **Database (future scope):** Firestore / MongoDB  
-- **Design Tool:** Figma  
-- **Version Control:** GitHub  
-- **Project Management:** GitHub Issues & Projects  
+| Category             | Technology                          |
+|---------------------|--------------------------------------|
+| Frontend            | React (TypeScript + Vite)            |
+| Backend             | Python (FastAPI)                     |
+| Database            | SQLite (via SQLAlchemy ORM)          |
+| Authentication      | JWT (JSON Web Tokens)                |
+| Styling             | Tailwind CSS                         |
+| HTTP Client         | Axios                                |
+| Version Control     | GitHub                               |
+| Containerization    | Docker                               |
+| Agent Execution     | Docker                               |
+| Package Management  | npm (frontend), pip (backend)        | 
 
 ---
 
